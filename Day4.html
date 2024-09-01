@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY 4</title>
+</head>
+<body>
+    <!-- TABLE -->
+    <table border="black">
+        <caption>CPI TABLE</caption>
+        <thead>
+            <tr>
+                <th>Name<th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>GAUTAM</td>
+            <td> 9 </td>
+        </tr>
+        <tr>
+            <td>SHUBHAM</td>
+            <td> 9 </td>
+        </tr>
+        <tr>
+            <td>ANURAG</td>
+            <td> 8 </td>
+        </tr>
+        </tbody>
+
+    </table>
+    <!-- ROWSPAN AND COLSPAN -->
+
+    <table border="black">
+        <caption>FOOD MENU</caption>
+        
+        <theader>
+            <tr>
+                <th rowspan="2">ITEM</th>
+                <th colspan="2">PRICE</th>
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </theader>
+        <tbody>
+            <tr>
+                <td>Fruti</td>
+                <td>10</td>
+                <td>0.14</td>
+            </tr>
+            <tr>
+                <td>Samosa</td>
+                <td>12</td>
+                <td>0.18</td>
+            </tr>
+            <tr>
+                <td>Chips</td>
+                <td>20</td>
+                <td>1.7</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- FORMS -->
+
+    <form action="/action">
+        <label>
+        Username:
+        <input type="text" placeholder="Enter UserName" name="username"/>
+        </label>
+        <br>
+
+        <label for="Password">Password:</label>
+        <input type="password" placeholder="Password" id="Password" name="password"/>
+        
+        <br>
+        
+        <label for="number">Number:</label>
+        <input type="number" id="Number"/>
+        <br>
+
+        <!-- BUTTON -->
+
+        <button type="submit">Submit</button>
+        <button type="button">Click</button>
+        <button type="reset">Reset</button>
+        <br>
+        <input type="button" value="click me"/>
+        <input type="submit" value="Submit"/>
+        
+        <hr>
+        <input type="checkbox" id="age" type="age"/>
+        <label for="age">I am 18+</label>   
+        <br>
+        <!-- Radio Button -->
+        <input type="radio" name="fruit" id="apple">
+        <label for="apple">apple</label>
+
+        <input type="radio" name="fruit" id="banana">
+        <label for="banana">banana</label>
+
+        <input type="radio" name="fruit" id="mango">
+        <label for="mango">mango</label>
+        <button>submit</button>
+
+        <div>
+            Select Your Profession:
+            <select name="profession" id="profession">
+                <option value="stud">Student</option>
+                <option value="dev">Developer</option>
+                <option value="teacher">Teacher</option>
+            </select>
+            <button>Submit</button>
+        </div>
+
+        <!-- Range -->
+        <label for="vol">Select your volume Level</label>
+        <input type="range"
+         id="vol"
+          name="vol"
+          value="50"/>
+        <button>Select</button>
+        <br>
+        <!-- Text Area -->
+        <label for="feedback">Give your feedback</label>
+        <textarea id="feedback" name="feedback" placeholder="Write your feedback here"></textarea>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
