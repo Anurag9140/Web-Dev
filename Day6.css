@@ -1,0 +1,71 @@
+/* Universal Selector-Apply for all page */
+*{
+    font-family: 'Courier New';
+}
+
+/* Element Selector-->select all element of same type */
+h3{
+    color:blueviolet;
+
+}
+
+h1{
+    color: #b92b27;
+}
+
+/* ID SELECTOR */
+#login{
+    background-color: aqua;
+}
+#signup{
+    background-color: #b92b27;
+}
+/* Class selector */
+.upvote{
+    background-color: burlywood;
+}
+
+#myid p{
+    color: rgb(61, 118, 4);
+}
+
+/* decendent selector */
+
+p a{
+    color:crimson;
+}
+
+/* sibbling combinator --> h3 that comes immediatly after any paragraph */
+p+h3{
+    text-decoration: underline;
+}
+
+/* attribute selector */
+
+input[type="text"]{
+    color:brown;
+}
+input[type="password"]{
+    color:chartreuse
+}
+input[type]{
+    background-color: bisque;
+}
+
+button:hover{
+    background-color: black;
+    color:white
+}
+
+/* pseudo element */
+h1::first-letter{
+    color:blue;
+}
+
+p::first-line{
+    color:black;
+}
+
+p::selection{
+    background: yellow;
+}
